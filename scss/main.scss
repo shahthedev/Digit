@@ -1,9 +1,10 @@
 @import"../scss/vendor";
 
 .navbar-light .navbar-toggler-icon{
-    background-image: url(/assets/toggler.svg);
+    background-image: url("../assets/toggler.svg");
     border: none !important;
 }
+
 .navbar-light .navbar-toggler {
     border: none;
     color: #fff;
@@ -70,7 +71,7 @@ body {
 {
     content: '';
     position: absolute;
-    width: 40%;
+    width: 30%;
     transform: scaleX(0);
     height: 2px;
     bottom: 0;
@@ -527,10 +528,10 @@ font-size: 36px !important;
     font-size: 14px;
 }
 .accordion-button:not(.collapsed)::after{
-    background-image:url(/assets/icons8-subtract.png) ;
+    background-image:url(../assets/icons8-subtract.png) ;
 }
 .accordion-button::after{
-    background-image:url(/assets/icons8-plus-math-24.png) ;
+    background-image:url(../assets/icons8-plus-math-24.png) ;
 
 }
 .accordion-item{
