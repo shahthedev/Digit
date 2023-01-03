@@ -1,5 +1,7 @@
 @import"../scss/vendor";
 
+a { color: inherit; } 
+
 .navbar-light .navbar-toggler-icon{
     background-image: url("../assets/toggler.svg");
     border: none !important;
